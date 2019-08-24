@@ -48,10 +48,10 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'root';
-$db['default']['password'] = '';
-$db['default']['database'] = 'ope_db';
+$db['default']['hostname'] = 'remotemysql.com:3306';
+$db['default']['username'] = 'Nq35rcTLQl';
+$db['default']['password'] = 'elnGafp6tm';
+$db['default']['database'] = 'Nq35rcTLQl';
 $db['default']['dbdriver'] = 'mysqli';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
