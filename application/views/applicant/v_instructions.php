@@ -4,7 +4,7 @@
 <?php echo $instructions;?>
 <br>
 <input class=button type=reset id=butt_exam value="Proceed to the Exam">
-<script src=<?php echo base_url()."public/js/jquery-1.9.1.min.js";?>></script>       
+<script src=<?php echo base_url()."scripts/jquery-1.9.1.min.js";?>></script>       
 <script>
 	$(document).on('click','#butt_exam',function(e){
 		e.preventDefault();

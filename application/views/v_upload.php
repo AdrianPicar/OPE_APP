@@ -20,7 +20,7 @@ if($table == null){?>
 		<li>Column D - Option 1, Column E - Score for Option 1, Column F - Option 2, Column G - Score for Option 2, and so on</li>
 	</ul>
 	<p>Example:</p>
-	<img src='<?php echo base_url('public/images/sample.jpg')?>'>
+	<img src='<?php echo base_url('images/sample.jpg')?>'>
 	
 	<label><?php echo $this->session->flashdata("success");?></label>
 	<div>

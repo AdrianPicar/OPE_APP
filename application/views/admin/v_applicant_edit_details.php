@@ -94,7 +94,7 @@ echo form_open("admin/update_applicant_details");?>
 </form>
 </div>
 
-<script src=<?php echo base_url()."public/js/jquery-1.9.1.min.js";?>></script>
+<script src=<?php echo base_url()."scripts/jquery-1.9.1.min.js";?>></script>
 <script type="text/javascript">
 $(document).ready(function(){
 	$('#month').bind('click change focus', function(event){

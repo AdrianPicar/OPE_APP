@@ -1,4 +1,4 @@
-<script type="text/javascript" src="<?php echo base_url()."public/js/tinymce/tinymce.min.js"?>"></script>
+<script type="text/javascript" src="<?php echo base_url()."scripts/tinymce/tinymce.min.js"?>"></script>
 <script type="text/javascript">
 tinyMCE.init({
 	mode : "textareas",
@@ -6,9 +6,9 @@ tinyMCE.init({
 	toolbar: "undo redo | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | preview | responsivefilemanager",
 	relative_urls: false,
 	remove_script_host: false,
-	external_filemanager_path:"/ope_app/public/js/tinymce/filemanager/",
+	external_filemanager_path:"/ope_app/scripts/tinymce/filemanager/",
 	filemanager_title:"Responsive Filemanager" ,
-	external_plugins: { "filemanager" : "/ope_app/public/js/tinymce/filemanager/plugin.min.js"}
+	external_plugins: { "filemanager" : "/ope_app/scripts/tinymce/filemanager/plugin.min.js"}
 });
 </script>
 </head>

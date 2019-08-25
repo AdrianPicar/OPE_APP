@@ -134,9 +134,9 @@
 </form>
 </div>
 
-<script src=<?php echo base_url()."public/js/jquery-1.9.1.min.js";?>></script>
-<!--  <script src=<?php echo base_url()."public/js/ajaxfileupload.js";?>></script>-->
-<script type="text/javascript" src="<?php echo base_url()."public/js/tinymce/tinymce.min.js"?>"></script>
+<script src=<?php echo base_url()."scripts/jquery-1.9.1.min.js";?>></script>
+<!--  <script src=<?php echo base_url()."scripts/ajaxfileupload.js";?>></script>-->
+<script type="text/javascript" src="<?php echo base_url()."scripts/tinymce/tinymce.min.js"?>"></script>
 <script type="text/javascript">
 var current_type_id = "True_or_False"; 
 $(document).ready(function(){
@@ -170,9 +170,9 @@ $(document).ready(function(){
         relative_urls: false,
         remove_script_host: false,
         width: 800,
-        external_filemanager_path:"/ope_app/public/js/tinymce/filemanager/",
+        external_filemanager_path:"/ope_app/scripts/tinymce/filemanager/",
   		filemanager_title:"Responsive Filemanager" ,
-   		external_plugins: { "filemanager" : "/ope_app/public/js/tinymce/filemanager/plugin.min.js"}
+   		external_plugins: { "filemanager" : "/ope_app/scripts/tinymce/filemanager/plugin.min.js"}
     });
 
     tinyMCE.init({
@@ -183,9 +183,9 @@ $(document).ready(function(){
         relative_urls: false,
         remove_script_host: false,
         width: 350,
-        external_filemanager_path:"/ope_app/public/js/tinymce/filemanager/",
+        external_filemanager_path:"/ope_app/scripts/tinymce/filemanager/",
   		filemanager_title:"Responsive Filemanager" ,
-   		external_plugins: { "filemanager" : "/ope_app/public/js/tinymce/filemanager/plugin.min.js"}
+   		external_plugins: { "filemanager" : "/ope_app/scripts/tinymce/filemanager/plugin.min.js"}
     });
 });
 

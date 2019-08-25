@@ -78,7 +78,7 @@ function printPage() {
 								if($row2->is_answer == 1){
 									echo $row2->option;
 								if($row2->score > 0)
-									echo "<img src='".base_url()."public/images/correct.png'>";
+									echo "<img src='".base_url()."images/correct.png'>";
 								}
                    			
                    			if($row->item_id == $row2->item_id){
@@ -104,14 +104,14 @@ function printPage() {
                     			echo "<td>";
                     			if($row2->is_answer == 1){
                     				if($row2->score > 0){
-                    					echo "<img src='".base_url()."public/images/correct.png'>";
+                    					echo "<img src='".base_url()."images/correct.png'>";
                     					$answer_correct = true;
                     				}
                     				else
-                    					echo "<img src='".base_url()."public/images/wrong.png'>";
+                    					echo "<img src='".base_url()."images/wrong.png'>";
                     			}
                     			if($row2->score > 0 && !$answer_correct)
-                    				echo "<img src='".base_url()."public/images/correct.png'>";
+                    				echo "<img src='".base_url()."images/correct.png'>";
 	                    			
                     			echo "</td>";
                     			echo "</tr>";

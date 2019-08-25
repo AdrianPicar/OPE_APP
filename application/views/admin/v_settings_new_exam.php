@@ -33,4 +33,4 @@
 </div>
 </form>
 
-<script src=<?php echo base_url()."public/js/jquery-1.9.1.min.js";?>></script>
+<script src=<?php echo base_url()."scripts/jquery-1.9.1.min.js";?>></script>

@@ -56,7 +56,7 @@ function printPage() {
 						$points=($row2->score==1)? " pt.":" pts.";
                    		$answers .= $row2->option." - ".$row2->score.$points.", ";?>
                   	<?php }}?>
-                 	<p>Correct Answer/s: <?php echo substr($answers,0,-2); echo "<img src='".base_url()."public/images/correct.png'>";?></p>
+                 	<p>Correct Answer/s: <?php echo substr($answers,0,-2); echo "<img src='".base_url()."images/correct.png'>";?></p>
                    	<?php }
                    	else{
                    		foreach($result2->result() as $row2){
@@ -71,7 +71,7 @@ function printPage() {
                    					$points=($row2->score==1)? " pt.":" pts.";
                    					echo " - ".$row2->score.$points;
                     				if($row2->score >= 1)
-										echo "<img src='".base_url()."public/images/correct.png'>";
+										echo "<img src='".base_url()."images/correct.png'>";
                     			?>
                    				</td>
                    				</tr>
