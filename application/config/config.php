@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://ope-app.herokuapp.com';
+$config['base_url']	= '';
 
 /*
 |--------------------------------------------------------------------------

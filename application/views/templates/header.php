@@ -16,7 +16,7 @@
 		<?php }?>	
 								
 		<!--  <h1 id="logo">OPE<span>APP</span></h1> -->
-		<h1 id="logo"><img src='<?php echo base_url('images/logo.png')?>'>OPE<span>APP</span></h1>	
+		<h1 id="logo"><img src='<?php echo base_url('images/logo.PNG')?>'>OPE<span>APP</span></h1>	
 	</div>
 		<?php  ?>
 	<div id="menu">

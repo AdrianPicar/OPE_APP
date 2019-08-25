@@ -170,9 +170,9 @@ $(document).ready(function(){
         relative_urls: false,
         remove_script_host: false,
         width: 800,
-        external_filemanager_path:"/ope_app/scripts/tinymce/filemanager/",
+        external_filemanager_path:"/scripts/tinymce/filemanager/",
   		filemanager_title:"Responsive Filemanager" ,
-   		external_plugins: { "filemanager" : "/ope_app/scripts/tinymce/filemanager/plugin.min.js"}
+   		external_plugins: { "filemanager" : "/scripts/tinymce/filemanager/plugin.min.js"}
     });
 
     tinyMCE.init({
@@ -183,9 +183,9 @@ $(document).ready(function(){
         relative_urls: false,
         remove_script_host: false,
         width: 350,
-        external_filemanager_path:"/ope_app/scripts/tinymce/filemanager/",
+        external_filemanager_path:"/scripts/tinymce/filemanager/",
   		filemanager_title:"Responsive Filemanager" ,
-   		external_plugins: { "filemanager" : "/ope_app/scripts/tinymce/filemanager/plugin.min.js"}
+   		external_plugins: { "filemanager" : "/scripts/tinymce/filemanager/plugin.min.js"}
     });
 });
 

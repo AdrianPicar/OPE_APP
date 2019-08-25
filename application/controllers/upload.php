@@ -71,7 +71,7 @@ class Upload extends CI_Controller {
 	}
 	
 	/*function delete(){
-		unlink('C:\xampp\htdocs\workspace\ope_app\uploads\aw.xlsx');
+		unlink('C:\xampp\htdocs\workspace\uploads\aw.xlsx');
 	}*/
 }
 ?>

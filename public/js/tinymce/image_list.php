@@ -1,12 +1,12 @@
  <?php
  // complete path for images
         //$directory = opendir('/var/www/modules/modules/news/backend/lib/fileupload/server/php/files/');    
-        $directory = opendir('\ope_app\application\uploads\images');    
+        $directory = opendir('\application\uploads\images');    
 		
         // my webpage with tinymce instance is in the backend directory
         
         // path left to get images from my webpage perspective :)
-        $path = "\ope_app\application\uploads\images\\";
+        $path = "\application\uploads\images\\";
         
         $list = array();
         while($entry = readdir($directory)) {

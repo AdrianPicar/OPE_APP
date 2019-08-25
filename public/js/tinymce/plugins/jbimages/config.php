@@ -39,8 +39,8 @@
 
 	
 	//$config['img_path'] = '../application/uploads/images'; // Relative to domain name
-	$config['img_path'] = '/ope_app/application/uploads/images';
-	$config['upload_path'] = '\ope_app\application\uploads\images'; // Physical path. [Usually works fine like this]
+	$config['img_path'] = '/application/uploads/images';
+	$config['upload_path'] = '\application\uploads\images'; // Physical path. [Usually works fine like this]
 	//$_SERVER['DOCUMENT_ROOT'] . $config['img_path']
 
 /*-------------------------------------------------------------------

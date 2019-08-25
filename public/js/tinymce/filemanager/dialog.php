@@ -153,7 +153,7 @@ $get_params = http_build_query(array(
 	    height: 100%;
 	}
 	</style><![endif]-->
-	<script type="text/javascript" src="/ope_app/scripts/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="/scripts/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript">
 	if (typeof jQuery === 'undefined')
 	{
