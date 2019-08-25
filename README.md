@@ -16,11 +16,11 @@ This has two (2) user types:
 
 Admin Accounts:
 
-Username: admin1
-Password: 1234
+> Username: admin1
+> Password: 1234
 
-Username: admin2
-Password: 1234
+> Username: admin2
+> Password: 1234
 
 Steps to create an APPLICANT account:
 
